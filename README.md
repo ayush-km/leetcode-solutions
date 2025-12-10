@@ -1,7 +1,7 @@
 # LeetCode Solutions & Learning Hub
 
-This repository contains my structured solutions to LeetCode problems across SQL, Java, and C#. 
-It also includes patterns, templates, notes, and detailed explanations that help me understand 
+This repository contains my structured solutions to LeetCode problems across SQL, Java, and C#.
+It also includes patterns, templates, notes, and detailed explanations that help me understand
 and revisit problem-solving approaches.
 
 ## Folders
@@ -18,6 +18,7 @@ and revisit problem-solving approaches.
 - **test-data/** — JSON, CSV, and mock data for testing.
 - **failed-attempts/** — Earlier approaches that didn’t work.
 - **meta/** — Progress tracking and metadata.
+- **dev-tools/** — Custom developer tools (e.g., Git aliases, helper scripts, automation utilities).
 
 ---
 
