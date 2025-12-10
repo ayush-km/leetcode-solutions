@@ -3,16 +3,16 @@ Problem: 1378-replace-employee-id-with-the-unique-identifier
 Link: https://leetcode.com/problems/replace-employee-id-with-the-unique-identifier/
 Difficulty: Easy
 Features Used:
-- FULL OUTER JOIN is not supported in MySQL, but we can simulate it using LEFT JOIN and RIGHT JOIN with UNION.
+- Engine-agnostic
 - Basic Filtering
-- Simple SELECT + FULL OUTER JOIN
+- Simple SELECT + LEFT JOIN
 
 Approach:
-      1. Use a SELECT statement to retrieve name from the Customer table.
-      2. Apply a WHERE clause to filter customers whose referee_id is not 2 or is NULL.
+      1. Use a LEFT JOIN to combine the Employees table with the EmployeeUNI table based on the matching id.
+      2. Select the unique_id from the EmployeeUNI table and the name from the Employees table.
 */
 
 select unique_id, name
 from Employees
-full join EmployeeUNI
+left join EmployeeUNI
 on Employees.id = EmployeeUNI.id
