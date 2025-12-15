@@ -9,6 +9,7 @@ and revisit problem-solving approaches.
 - **sql/** — All SQL LeetCode solutions.
 - **java/** — Java solutions.
 - **csharp/** — C# solutions.
+- **cpp/** - C++ solutions.
 - **patterns/** — Algorithmic techniques and breakdowns.
 - **templates/** — Reusable code templates.
 - **explanations/** — Long-form problem breakdowns.
